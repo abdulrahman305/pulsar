@@ -102,7 +102,7 @@ flexible messaging model and an intuitive client API.</description>
     <!-- By default build for local Docker platform.
          To create multi-arch image, pass -Ddocker.platforms=linux/arm64,linux/amd64
     -->
-    <docker.platforms></docker.platforms>
+    <docker.platforms/>
     <docker.skip.push>true</docker.skip.push>
 
     <!-- required for running tests on JDK11+ -->
@@ -122,7 +122,7 @@ flexible messaging model and an intuitive client API.</description>
     <testRealAWS>false</testRealAWS>
     <testRetryCount>1</testRetryCount>
     <testFailFast>true</testFailFast>
-    <testFailFastFile></testFailFastFile>
+    <testFailFastFile/>
     <testJacocoAgentArgument/>
     <integrationtest.coverage.enabled>false</integrationtest.coverage.enabled>
     <integrationtest.coverage.dir>${project.build.directory}</integrationtest.coverage.dir>
@@ -182,7 +182,7 @@ flexible messaging model and an intuitive client API.</description>
     <system-lambda.version>1.2.1</system-lambda.version>
     <sketches.version>0.8.3</sketches.version>
     <hbc-core.version>2.2.0</hbc-core.version>
-    <cassandra.version>3.11.2</cassandra.version>
+    <cassandra.version>4.0.0</cassandra.version>
     <aerospike-client.version>4.5.0</aerospike-client.version>
     <kafka-client.version>3.4.0</kafka-client.version>
     <rabbitmq-client.version>5.18.0</rabbitmq-client.version>
