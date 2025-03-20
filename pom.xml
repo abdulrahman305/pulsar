@@ -100,7 +100,7 @@ flexible messaging model and an intuitive client API.</description>
     <!-- By default build for local Docker platform.
          To create multi-arch image, pass -Ddocker.platforms=linux/arm64,linux/amd64
     -->
-    <docker.platforms></docker.platforms>
+    <docker.platforms/>
     <docker.skip.push>true</docker.skip.push>
 
     <!-- required for running tests on JDK11+ -->
@@ -120,7 +120,7 @@ flexible messaging model and an intuitive client API.</description>
     <testRealAWS>false</testRealAWS>
     <testRetryCount>1</testRetryCount>
     <testFailFast>true</testFailFast>
-    <testFailFastFile></testFailFastFile>
+    <testFailFastFile/>
     <testJacocoAgentArgument/>
     <integrationtest.coverage.enabled>false</integrationtest.coverage.enabled>
     <integrationtest.coverage.dir>${project.build.directory}</integrationtest.coverage.dir>
@@ -165,7 +165,7 @@ flexible messaging model and an intuitive client API.</description>
     <jackson.version>2.17.2</jackson.version>
     <fastutil.version>8.5.14</fastutil.version>
     <reflections.version>0.10.2</reflections.version>
-    <swagger.version>1.6.2</swagger.version>
+    <swagger.version>1.6.15</swagger.version>
     <puppycrawl.checkstyle.version>10.14.2</puppycrawl.checkstyle.version>
     <docker-maven.version>0.45.1</docker-maven.version>
     <docker.verbose>true</docker.verbose>
