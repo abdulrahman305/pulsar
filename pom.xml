@@ -100,7 +100,7 @@ flexible messaging model and an intuitive client API.</description>
     <!-- By default build for local Docker platform.
          To create multi-arch image, pass -Ddocker.platforms=linux/arm64,linux/amd64
     -->
-    <docker.platforms></docker.platforms>
+    <docker.platforms/>
     <docker.skip.push>true</docker.skip.push>
     <docker.skip.tag>false</docker.skip.tag>
 
@@ -119,7 +119,7 @@ flexible messaging model and an intuitive client API.</description>
       ${test.additional.args.jdk24}
       ${test.netty.args}
     </test.additional.args>
-    <test.additional.args.jdk24></test.additional.args.jdk24>
+    <test.additional.args.jdk24/>
     <!-- Netty related JVM args, including Netty leak detection enabled in tests -->
     <test.netty.args>
       <!-- required for triggering GC to trigger leak detection synchronously in tests -->
@@ -157,7 +157,7 @@ flexible messaging model and an intuitive client API.</description>
     <testRealAWS>false</testRealAWS>
     <testRetryCount>1</testRetryCount>
     <testFailFast>true</testFailFast>
-    <testFailFastFile></testFailFastFile>
+    <testFailFastFile/>
     <testJacocoAgentArgument/>
     <integrationtest.coverage.enabled>false</integrationtest.coverage.enabled>
     <integrationtest.coverage.dir>${project.build.directory}</integrationtest.coverage.dir>
@@ -177,7 +177,7 @@ flexible messaging model and an intuitive client API.</description>
     <!-- apache commons -->
     <commons-compress.version>1.27.1</commons-compress.version>
 
-    <bookkeeper.version>4.17.1</bookkeeper.version>
+    <bookkeeper.version>4.17.2</bookkeeper.version>
     <zookeeper.version>3.9.3</zookeeper.version>
     <commons-cli.version>1.9.0</commons-cli.version>
     <commons-text.version>1.13.1</commons-text.version>
@@ -255,7 +255,7 @@ flexible messaging model and an intuitive client API.</description>
     <confluent.version>7.8.2</confluent.version>
     <aircompressor.version>0.27</aircompressor.version>
     <asynchttpclient.version>2.12.4</asynchttpclient.version>
-    <commons-lang3.version>3.17.0</commons-lang3.version>
+    <commons-lang3.version>3.18.0</commons-lang3.version>
     <commons-configuration.version>1.10</commons-configuration.version>
     <commons-io.version>2.19.0</commons-io.version>
     <commons-codec.version>1.18.0</commons-codec.version>
@@ -2373,7 +2373,7 @@ flexible messaging model and an intuitive client API.</description>
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -2386,7 +2386,7 @@ flexible messaging model and an intuitive client API.</description>
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -2968,7 +2968,7 @@ flexible messaging model and an intuitive client API.</description>
         </property>
       </activation>
       <properties>
-       <test.netty.leakdetection.args></test.netty.leakdetection.args>
+       <test.netty.leakdetection.args/>
       </properties>
     </profile>
   </profiles>
